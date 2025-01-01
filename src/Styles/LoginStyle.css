@@ -1,0 +1,50 @@
+.login_section{
+    background: #698ab3 ;
+    background: linear-gradient(to right, #698ab3, #6a7f94);
+    background: linear-gradient(to right, #555c62, #6b8485);
+
+    width: 100%;
+   min-height: 100vh;
+   padding-bottom: 70px;
+    
+}
+.login_container{
+   padding-top: 3% !important;
+}
+.login_section_header{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1490196078);
+    position: relative;
+    background: #fff;
+}
+.login_container_col{
+    background: white;
+}
+.login_form button img{
+    max-width:27px;
+    
+}
+.login_form p{
+    font-size: 15px;
+}
+.line span{
+     border: 0.01px solid rgb(219, 219, 219);
+    width:50%;
+     height:0px !important;
+}
+.form-control:focus{
+    box-shadow: none!important;
+}
+.btn-block {
+    --bs-btn-bg: #093330!important;
+    --bs-btn-border-color:  #093330!important;
+    --bs-btn-hover-bg: #07776f!important;
+    --bs-btn-hover-border-color:  #07776f!important;
+    --bs-btn-active-bg:  #07776f!important;
+    --bs-btn-active-border-color:  #07776f!important;
+    --bs-btn-disabled-bg:  #093330!important;
+    --bs-btn-disabled-border-color:  #093330!important;
+}
+.btn{
+    border: 1px solid  #093330!important;
+    background-color:  #093330!important;
+}

@@ -1,0 +1,132 @@
+/*hero section*/
+/* background: linear-gradient(-150deg, #222222 15%, #373737 70%, #3c4859 94%); */
+.dashboard_section{
+    background: linear-gradient(to right, #555c62, #6b8485);
+    position: relative;
+   
+    background-size: cover;
+  
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    height:100%;
+    box-shadow:  0 1px 20px rgba(0, 0, 0, 0.3)
+
+}
+.ads_box {
+    background: linear-gradient(to right, #ff6ec4, #f092dd, #87a0fa, #7873f5);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px;
+    border:1.5px solid #f1f1f1;
+    border-radius: 9px;
+}
+
+
+
+  
+.search_bar button {
+    width:65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    border-color: white;
+    opacity:0.8;
+  }
+  
+.search_bar1 button{
+    width:65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    border-color: white;
+    opacity:0.8;
+  }
+  .select_box{
+    display: block!important;
+     width: 70% !important;
+     margin-left: 25px;
+     margin-left: 25px;
+  }
+  .form-select:focus {
+    border-color: inherit!important; /* Resets to the default border color */
+    outline: none!important;        /* Removes the focus outline */
+    box-shadow: none!important;     /* Removes the focus box-shadow */
+}
+
+.about_text {
+    font-size: 0.96rem;
+   
+ }
+.payout_calc{
+    background:#53959e;
+    background: linear-gradient(135deg, #53959e, #7fb5c4, #b3d2dd);
+    background: linear-gradient(235deg, #475a5c, #45656e, #b3d2dd);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border:1.5px solid #f1f1f1;
+    border-radius: 9px;
+}
+.piechart{
+    border: 0.2px solid white;
+    border-radius: 5px;
+}
+.mybutton{
+    border:1px solid rgb(0, 0, 0);
+    background-color: white;
+    padding:7px;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.mybutton1{
+    margin-left: 0px;
+}
+.exportbox{
+    background: linear-gradient(to right, #c2c770 60%, #ffffff);
+    width:60%;
+    padding:5px;
+}
+@media (max-width: 768px){
+    .ads_box{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .ads_box .box1{
+        margin-bottom: 20px;
+    }
+    .ads_box .box2{
+        display: flex! important;
+        justify-content: start!important;
+    }
+    .search_bar1{
+        display: flex;
+        flex-direction: column;
+    }
+    .select_box_container{
+        margin-top: 9px;
+        display: flex!important;
+        justify-content: start!important;
+        margin-left: 0px!important;
+    }
+    .select_boxi{
+        margin-left: 0px !important;
+    }
+}
+
+  @media (min-width: 768px){
+     .input-group{
+           width: 50%!important;
+     }
+  }
+  
+  
