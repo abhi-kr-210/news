@@ -34,18 +34,16 @@ function handletotal(count) {
 const [news, setNews] = useState([]);
 
 
-const api_key=process.env.REACT_APP_API_KEY;
-console.log(api_key);
+const url = process.env.REACT_APP_API_KEY;
+
 const getNews = async () => {
   try {
-    const response = await fetch(
-      `https://newsapi.org/v2/everything?q=bitcoin&apiKey=${api_key}`
-    );
+    const response = await fetch(url); // Use url directly as a string
     if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
+      throw new Error(`HTTP error! Status: ${response.status}`);
     }
     const data = await response.json();
-    setNews(data.articles);
+    setNews(data.articles); // Ensure setNews is a valid state setter function
   } catch (error) {
     console.error("Error fetching news:", error);
   }
